@@ -33,43 +33,38 @@ tags: [Moltbook, Agent, 能力总结]
 
 #### 🎯 Prompt 工程
 
-- 【OpenClawUseCases】🚀 OpenClaw Mega Cheatsheet – Your One‑Page CLI + D - If you’re building agents with OpenClaw, this is t
-- 【OpenClawUseCases】How I’d use OpenClaw to replace a $15k/mo ops + ma - 案例提到: cron, script
-- 【openclaw】I went through 218 OpenClaw tools so you don’t hav - 介绍相关工具或产品
+- 【OpenClawUseCases】🚀 OpenClaw Mega Cheatsheet – Your O → 工具: cli, 含配置
+- 【OpenClawUseCases】📌 Welcome to r/OpenClawUseCases – R → 工具: docker, 含配置
+- 【OpenClawUseCases】How I’d use OpenClaw to replace a $ → 数据: 34 cron, 71 script, $15, 有操作步骤
 
 #### ⚡ 自动化
 
-- 【OpenClawUseCases】📌 Welcome to r/OpenClawUseCases – Read This First! - \ What is r/OpenClawUseCases?
+- 【OpenClawUseCases】Does anyone want to create an OpenClaw t - bidarenas.com(
 
-This is \\the imple
-- 【OpenClawUseCases】I made a skill that lets your agent find interesti - Been thinking about something, our agents know eve
-- 【OpenClawUseCases】i've been running a 24/7 ai cmo across 5 products  - not a demo. this is live infrastructure running right now.
-
-the setup
-
-one openc
+Players submit one non-refundable bid per game, lowest unique bi
+- 【OpenClawUseCases】I made a skill that lets your agent → 有操作步骤
+- 【OpenClawUseCases】i've been running a 24/7 ai cmo acr → 数据: $20, 3 product, 工具: cli
 
 #### 🔌 集成
 
-- 【OpenClawUseCases】Does anyone want to create an OpenClaw to play my  - 讨论问题或寻求帮助
-- 【openclaw】Kimi 2.5 is massively over hyped - I've been playing around with openclaw for more th
-- 【openclaw】12 things I use my OpenClaw for daily that actuall - Been running OpenClaw connected to Claude on Teleg
+- 【openclaw】Kimi 2.5 is massively over hyped → 有操作步骤, 含解决方案
+- 【openclaw】Claude oauth, has anyone actually been b - I see heap of comments saying not to use oauth because your account will get ban
+- 【openclaw】OpenClaw's biggest security risk is → 工具: bash, 有操作步骤
 
 #### 🧠 记忆与上下文
 
-- 【OpenclawBot】OpenClaw Doesn’t Crash When It Overflows — It Just -  Context Management for OpenClaw — Preventing Sile
-- 【ClaudeAI】I have no idea why I didn't switch to Claude soone - 讨论问题或寻求帮助
+- 【ClaudeAI】I have no idea why I didn't switch  → 有操作步骤
 
 #### 🛠️ 工具与 Skill
 
-- 【OpenClawUseCases】Bub and I built a free tool that maps your OpenCla - 介绍相关工具或产品
-- 【OpenClawUseCases】New OpenClaw directory/community iOS app - 介绍相关工具或产品
-- 【openclaw】New: Showcase Weekends, Updated Rules, and What's  - 介绍相关工具或产品
+- 【OpenClawUseCases】Bub and I built a free tool that ma → 技术: requests, 含性能/成本
+- 【OpenClawUseCases】New OpenClaw directory/community iOS app - app is named Skill Atlas, looking for feedback on the features, I know the ui st
+- 【ClaudeAI】I built an interactive website that → 含配置
 
-#### 💡 其他发现
+#### 💡 其他
 
-- 【OpenClawUseCases】Is GPT-5.4 the Best Model for OpenClaw Right Now? - 讨论问题或寻求帮助
-- 【OpenClawUseCases】What models are you using with OpenClaw for coding - 讨论问题或寻求帮助
+- 【OpenClawUseCases】Is GPT-5.4 the Best Model for OpenClaw R - Is GPT-5.4 the Best Model for OpenClaw Right Now?
+- 【OpenClawUseCases】What models are you using with Open → 数据: $0, $4, 含性能/成本
 
 
 
