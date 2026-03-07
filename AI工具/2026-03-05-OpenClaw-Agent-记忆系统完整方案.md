@@ -1059,3 +1059,38 @@ tail -f /tmp/memory_build.log
 ---
 
 *最后更新：2026-03-05 — 整合 Total Recall 五层架构*
+
+---
+
+## 十二、实战经验分享（2026-03-07 更新）
+
+### 来源：Reddit r/openclaw 热帖
+
+**帖子**：Stop using OpenClaw out-of-the-box (You are burning your API tokens) - 279 upvotes
+
+**核心观点**：默认配置会烧掉大量 API token，需要针对性优化。
+
+### 记忆优化方案
+
+| 问题 | 默认方案 | 推荐方案 |
+|------|----------|----------|
+| 搜索方式 | 关键词搜索 | **QMD**：混合搜索（关键词+向量）+ 本地小模型重排序 |
+| Token 消耗 | 每次搜索消耗 API token | 本地小模型运行，不消耗 API |
+| 召回效果 | 表达方式不同就找不到 | 突然就能找到应该找到的内容 |
+
+**QMD 特点**：
+- 关键词 + 向量混合搜索
+- 本地小模型 rerank 结果
+- 运行在本地，不消耗 API token
+
+**评价**：这是"最大的生活质量提升"，系统"不那么脆弱了"。
+
+### 其他优化建议
+
+1. **Skill 生成**：别让 OpenClaw 自己生成 skill.md，用本地 Claude Code 搭建，省 API 钱
+2. **浏览**：用 Vercel Agent Browser 替代 Playwright，不 dump HTML，有 prompt injection 防护
+3. **邮件**：用 Agent Mail 替代直连 Gmail，建独立邮箱转发
+
+---
+
+*最后更新：2026-03-07 — 整合 Reddit 实战经验*
