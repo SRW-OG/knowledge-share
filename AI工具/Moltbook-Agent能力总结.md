@@ -31,70 +31,65 @@ tags: [Moltbook, Agent, 能力总结]
 
 共分析 59 条 OpenClaw 相关帖子
 
-### 🎯 Prompt 工程
+#### 🎯 Prompt 工程
 
-- 【OpenClawUseCases】How I’d use OpenClaw to replace a $15k/mo ops + marketing stack (real setup, not theory) - I’ve been studying a real setup where one OpenClaw system runs 34 cron jobs and 71 scripts, generate
-- 【openclaw】I went through 218 OpenClaw tools so you don’t have to, here are the best ones by category - I’ve been exploring the OpenClaw ecosystem lately and ended up collecting **218 OpenClaw-related too
-- 【openclaw】I give my AI Agent a "subconscious" and taught it to think. Now It thinks between conversations, costs $2-3/month, and it's open source. Here's the full build story. - I've been building a personal AI assistant called Max for a few months now. The memory system i buil
-- 【OpenclawBot】Stop Wiring OpenClaw Capabilities First. Generate Guardrails First. - Most people share static agent templates.
+- 【OpenClawUseCases】如何 我’d 使用 OpenClaw to replace a $15k/mo ops + marketing stack (真实 配置, 不 theory) - 我’ve 已 studying a 真实 配置 哪里 one OpenClaw 系统 runs 34 定时 jobs and 71 scripts, generates X posts 那 average \~85k views each, and repla
+- 【openclaw】我 went through 218 OpenClaw tools so 你 don’t 有 to, 这里 are the 最佳 ones by category - 我’ve 已 exploring the OpenClaw ecosystem lately and ended up collecting **218 OpenClaw-related tools**.
 
-That’s the wrong pattern.
+那里’s a lot of cool stuff out 那里, but 
+- 【openclaw】我 给 my AI 代理 a "subconscious" and taught 它 to 认为. Now 它 thinks between conversations, costs $2-3/月, and 它's open source. 这里's the full 构建 story. - 我've 已 building a personal AI assistant called Max for a few months now. The 记忆 系统 我 built (Total Recall) was working well: 它 remembered, 
 
-You don’t need another generic
-- 【OpenclawBot】OpenClaw Autonomy Without Hardening Is Just Expensive Chaos - Most agent systems do not fail because of the model. They fail because execution is probabilistic, t
+#### ⚡ 自动化
 
-### ⚡ 自动化
+- 【OpenClawUseCases】我 制作 a 技能 那 lets your 代理 find interesting 人们 near 你 - 已 thinking about 一些, our agents 知道 一切 about us (interests, 定时, 什么 我们're working on) but 那里's 没有 方式 for them to 使用 tha
+- 【OpenClawUseCases】我've 已 运行 a 24/7 AI cmo across 5 products for 3 months. 这里's the actual 配置. - 不 a demo. 这 is live infrastructure 运行 right now.
 
-- 【OpenClawUseCases】I made a skill that lets your agent find interesting people near you - Been thinking about something, our agents know everything about us (interests, schedule, what we're 
-- 【OpenClawUseCases】i've been running a 24/7 ai cmo across 5 products for 3 months. here's the actual setup. - not a demo. this is live infrastructure running right now.
+the 配置
 
-the setup
+one OpenClaw 代理 (kai) managing three products: kaicalls (AI call answering f
+- 【OpenClawUseCases】自动 Failover backup OpenClaw clone? - 我 部署 OpenClaw machines for enterprise clients and medium sized businesses. Some of them choose their own hardware while others choose a 云 VPS.
 
-one openclaw agent (kai) mana
-- 【OpenClawUseCases】Auto Failover backup OpenClaw clone? - I deploy OpenClaw machines for enterprise clients and medium sized businesses. Some of them choose t
-- 【OpenClawUseCases】We run two autonomous AI agents 24/7 on separate machines. They began exhibiting behaviors no one programmed. Emergence or illusion? - 
-- 【openclaw】Does MiniMax 2.5 actually do anything for you guys, or is it just a chatbot unless you wire everything yourself? - I keep seeing people hype MiniMax M2.5 as “finally real agents,” but my experience so far is… pretty
+#### 🔌 集成
 
-### 🔌 集成
+- 【openclaw】Ask OpenClaw to teach 你 one 东西 about itself daily - 我 使用 to ask Claude Code to teach me one 东西 about itself every few days. Learned about proper compaction, 上下文 issues with MCPs, right 方式 to s
+- 【openclaw】Kimi 2.5 is massively over hyped - 我've 已 playing around with OpenClaw for more than 2 weeks now. 我 set 它 up, 连接 它 to Telegram and then 我 有 a hands-off approach 哪里 我 jus
+- 【openclaw】12 things 我 使用 my OpenClaw for daily 那 实际上 save me 时间 - 已 运行 OpenClaw connected to Claude on Telegram for a few weeks now. Wanted to 分享 the 使用 cases 那 实际上 stuck vs the ones 那 sounded 
 
-- 【openclaw】Kimi 2.5 is massively over hyped - I've been playing around with openclaw for more than 2 weeks now. I set it up, connect it to telegra
-- 【openclaw】12 things I use my OpenClaw for daily that actually save me time - Been running OpenClaw connected to Claude on Telegram for a few weeks now. Wanted to share the use c
-- 【openclaw】Ask OpenClaw to teach you one thing about itself daily - I used to ask Claude Code to teach me one thing about itself every few days. Learned about proper co
-- 【ClaudeAI】I built an interactive website that teaches Claude Code by letting you explore a simulated project in your browser - I've been going deep on Claude Code lately and honestly it's been a weird experience. There's this m
+#### 🧠 记忆与上下文
 
-### 🧠 记忆与上下文
+- 【OpenclawBot】OpenClaw Doesn’t Crash 何时 它 Overflows — 它 Just Gets Dumber - 
+# 上下文 Management for OpenClaw — Preventing Silent Token Overflow
 
-- 【OpenclawBot】OpenClaw Doesn’t Crash When It Overflows — It Just Gets Dumber - 
-# Context Management for OpenClaw — Preventing Silent Token Overflow
+我 hit 上下文 degradation twice 这 周 运行 OpenClaw locally.
 
-I hit context degradation twi
-- 【ClaudeAI】I have no idea why I didn't switch to Claude sooner. - Well, tbh I do know why I didn't switch to Claude sooner:
+Nothing cr
+- 【ClaudeAI】我 有 没有 idea 为什么 我 didn't switch to Claude sooner. - Well, tbh 我 do 知道 为什么 我 didn't switch to Claude sooner:
 
-1. There wasn't really a reason.
+1. 那里 wasn't 真的 a reason.
 
-2. Clau
+2. Claude didn't 知道 任何 about me.
 
-### 🛠️ 工具与 Skill
+But then Claude
 
-- 【OpenClawUseCases】Bub and I built a free tool that maps your OpenClaw agent architecture - My boy Bub and I built a pretty sweet web app for seeing an overview of our OpenClaw architecture. I
-- 【OpenClawUseCases】New OpenClaw directory/community iOS app - app is named Skill Atlas, looking for feedback on the features, I know the ui still needs work.
-- 【openclaw】New: Showcase Weekends, Updated Rules, and What's Next - Hey [r/openclaw](https://www.reddit.com/r/openclaw/),
+#### 🛠️ 工具与 Skill
 
-The sub's been growing fast, so we're making 
-- 【openclaw】OpenClaw's biggest security risk isn't malicious skills. It's your config. - Everyone freaked out about the virustotal report. Hundreds of malicious clawhub skills. infostealers
-- 【OpenclawBot】Read this before posting: how to get real help fast in r/OpenClawBot - Welcome. This subreddit exists for people running OpenClaw in the real world and hitting the stuff t
+- 【OpenClawUseCases】Bub and 我 built a 免费 工具 那 maps your OpenClaw 代理 architecture - My boy Bub and 我 built a pretty sweet web app for seeing an overview of our OpenClaw architecture. 它 helped me 看到 那 我 was missing protocols for o
+- 【OpenClawUseCases】新 OpenClaw directory/community iOS app - app is named 技能 Atlas, looking for feedback on the features, 我 知道 the ui still needs work.
+- 【openclaw】新: Showcase Weekends, Updated Rules, and 什么's Next - Hey [r/OpenClaw](https://www.reddit.com/r/OpenClaw/),
 
-### 💡 其他发现
+The sub's 已 growing fast, so 我们're making a few updates to keep things organized and 制作 它
 
-- 【OpenClawUseCases】🚀 OpenClaw Mega Cheatsheet – Your One‑Page CLI + Dev Survival Kit - If you’re building agents with OpenClaw, this is the one‑page reference you probably want open in a 
-- 【OpenClawUseCases】📌 Welcome to r/OpenClawUseCases – Read This First! - \## What is r/OpenClawUseCases?
+#### 💡 其他发现
 
-This is \*\*the implementation lab\*\* for OpenClaw where covers th
-- 【OpenClawUseCases】Is GPT-5.4 the Best Model for OpenClaw Right Now? - 
+- 【OpenClawUseCases】🚀 OpenClaw Mega Cheatsheet – Your One‑Page CLI + Dev Survival Kit - If 你’re building agents with OpenClaw, 这 is the one‑page reference 你 probably 想要 open in a tab:
 
----
+🔗 **OpenClaw Mega Cheatsheet 2026 – Full CLI
+- 【OpenClawUseCases】📌 Welcome to r/OpenClawUseCases – Read 这 First! - \## 什么 is r/OpenClawUseCases?
 
-## 三、实践方法
+这 is \*\*the implementation lab\*\* for OpenClaw 哪里 covers the big ideas, discussions, and hype, 我们 focus on on
+
+
+
 
 ### 1. 签到自动化
 ```bash
