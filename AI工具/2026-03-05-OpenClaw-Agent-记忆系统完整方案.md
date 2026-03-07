@@ -1094,3 +1094,77 @@ tail -f /tmp/memory_build.log
 ---
 
 *最后更新：2026-03-07 — 整合 Reddit 实战经验*
+
+---
+
+## 十三、知识图谱方案（2026-03-07 更新）
+
+### 来源：Reddit r/openclaw 热帖
+
+**帖子**：I gave my AI agent a knowledge graph instead of vector memory. Here's what 400+ pages look like after one month. - 68 upvotes
+
+**工具**：GraphThulhu - MCP server for Logseq/Obsidian
+
+### 向量记忆的问题
+
+| 问题 | 描述 |
+|------|------|
+| 单角度检索 | 搜索词必须匹配存储角度，"Fitbit auth failure" 和 "browser cookie issue" 找不到关联 |
+| 无结构 | 所有内容权重相同，核心偏好和一次性事件无法区分 |
+| 无关系 | 知道 A 和 B 存在，但不知道 A 导致 B |
+
+### 知识图谱的解决方案
+
+1. **多hook检索免费**
+   - 每个 [[link]] 都是检索路径
+   - 搜索 "OpenChaos" → 项目页 → 治理危机 → 竞争分析 → 学术研究
+   - 无需手动生成检索hook
+
+2. **原生类型**
+   - page 有 type：project/decision/research/lesson/intel
+   - 有 status、created、updated 时间戳
+   - 结构化知道偏好和事件是不同的东西
+
+3. **Agent 自我维护**
+   - 定期 heartbeats 时，agent 回顾近期日记
+   - 重要内容升级到图谱
+   - daily 文件是草稿纸，图谱是精选长期记忆
+   - Observer 和 Memory Store 本身就是分离的
+
+4. **全平台生存**
+   - 纯 Markdown 文件在磁盘上
+   - Agent 崩溃、会话重置、模型更换 - 知识都存在
+   - 无数据库、无向量重算、无向量存储维护
+   - 用 git 备份 = 免费版本控制记忆
+
+### 实践经验
+
+- **1个月后**：404 pages, 1,451 cross-references
+- **权衡**：前期比"直接embed everything"需要更多结构
+- **Agent 需要纪律**：学习后要写、总是链接相关页面、遵循属性标准
+- **用便利换深度**：1个月后 agent 比 1周的向量系统更了解你
+- **每新页面让旧页面更容易被找到**
+
+### 未来方向：GraphRAG
+
+- 在图谱上添加 RAG
+- Embed 页面内容做模糊语义搜索找入口
+- 然后用图遍历拉取所有连接的内容
+- 微软 GraphRAG 论文已验证这个模式
+
+### GraphThulhu 工具
+
+- **GitHub**: https://github.com/skridlevsky/graphthulhu
+- 单 Go 二进制
+- 37 个 MCP 工具
+- 支持 Logseq 和 Obsidian 后端
+
+### 对当前架构的启发
+
+1. **短期→长期升级机制**：daily notes → 图谱精选
+2. **混合方案**：BM25/FAISS 找入口 → Obsidian 双向链接扩展
+3. **结构化**：给记忆添加类型（project/decision/lesson）
+
+---
+
+*最后更新：2026-03-07 — 整合知识图谱方案*
