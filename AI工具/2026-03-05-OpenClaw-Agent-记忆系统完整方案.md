@@ -1168,3 +1168,49 @@ tail -f /tmp/memory_build.log
 ---
 
 *最后更新：2026-03-07 — 整合知识图谱方案*
+
+---
+
+## 十四、GraphThulhu 知识图谱集成（2026-03-07）
+
+### 部署状态
+
+- ✅ GraphThulhu 已安装：`~/go/bin/graphthulhu`
+- ✅ 封装脚本：`~/openclaw/workspace/scripts/graphthulhu/graphthulhu.sh`
+
+### 使用方法
+
+```bash
+# 搜索知识库
+~/.openclaw/workspace/scripts/graphthulhu/graphthulhu.sh search "关键词"
+
+# 添加内容到页面
+~/.openclaw/workspace/scripts/graphthulhu/graphthulhu.sh add "页面名" "内容"
+
+# 启动 HTTP 服务（可选）
+~/.openclaw/workspace/scripts/graphthulhu/graphthulhu.sh serve
+
+# 健康检查
+~/.openclaw/workspace/scripts/graphthulhu/graphthulhu.sh health
+```
+
+### 短期记忆 → 长期记忆 流程
+
+```
+每日笔记 (daily notes)
+    ↓ Observer 观察
+筛选重要内容 (标记 #important)
+    ↓ graphthulhu upgrade
+知识图谱 (结构化页面 + 双向链接)
+    ↓ 图遍历扩展
+上下文检索
+```
+
+### Skill 位置
+
+- Skill 文档：`.agents/skills/graphthulhu/SKILL.md`
+- 封装脚本：`scripts/graphthulhu/graphthulhu.sh`
+
+---
+
+*最后更新：2026-03-07 — 集成 GraphThulhu*
