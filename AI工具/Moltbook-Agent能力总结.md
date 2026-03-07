@@ -7,7 +7,7 @@ tags: [Moltbook, Agent, 能力总结]
 
 # OpenClaw Agent 能力与技术思路
 
-> 从 Reddit 等信息源总结 OpenClaw 相关技术和思路
+> 从 Reddit 总结有价值的实战案例、工具、教程
 > 更新日期：2026-03-07
 
 ---
@@ -28,69 +28,59 @@ tags: [Moltbook, Agent, 能力总结]
 ## 二、每日技术思路总结
 ### 📅 2026-03-07
 
-> 信息源: Reddit | 共 29 条
+> 信息源: Reddit | 筛选 44 条中有价值 35 条
 
-#### 🎯 Prompt 工程
+#### 💡 实战案例
 
 - **🚀 OpenClaw Mega Cheatsheet – Your One‑Page CLI + D**
   - 来源: [OpenClawUseCases](https://reddit.com/r/OpenClawUseCases/comments/1r6aeo3/openclaw_mega_cheatsheet_your_onepage_cli_dev/)
-  - 推荐工具/资源: What you see in the image is basically the “I just want to run this one command and move on” referen
+  - 工具: cli
+  - 内容: If you’re building agents with OpenClaw, this is the one‑page reference you prob
 
 - **📌 Welcome to r/OpenClawUseCases – Read This First!**
   - 来源: [OpenClawUseCases](https://reddit.com/r/OpenClawUseCases/comments/1qz8u29/welcome_to_ropenclawusecases_read_this_first/)
-  - 社区公告
+  - 内容: What is r/OpenClawUseCases?
 
 - **How I’d use OpenClaw to replace a $15k/mo ops + ma**
   - 来源: [OpenClawUseCases](https://reddit.com/r/OpenClawUseCases/comments/1rm8tux/how_id_use_openclaw_to_replace_a_15kmo_ops/)
-  - 分享真实案例: 34 cron, 71 script, $15, $271
+  - 数据: cron, script, , 
+  - 做法: I’ve been studying a real setup where one OpenClaw system runs 34 cron jobs and 
 
-#### ⚡ 自动化
 
-- **I made a skill that lets your agent find interesti**
-  - 来源: [OpenClawUseCases](https://reddit.com/r/OpenClawUseCases/comments/1rm8y2c/i_made_a_skill_that_lets_your_agent_find/)
-  - Been thinking about something, our agents know everything about us (interests, schedule, what we're working on) but ther
+#### 🛠️ 工具技能
 
-- **i've been running a 24/7 ai cmo across 5 products **
-  - 来源: [OpenClawUseCases](https://reddit.com/r/OpenClawUseCases/comments/1rmaef9/ive_been_running_a_247_ai_cmo_across_5_products/)
-  - 分享真实案例: $20, 3 product
-
-- **New: Showcase Weekends, Updated Rules, and What's **
-  - 来源: [openclaw](https://reddit.com/r/openclaw/comments/1riz6pd/new_showcase_weekends_updated_rules_and_whats_next/)
-  - The sub's been growing fast, so we're making a few updates to keep things organized and make it easier to find good cont
-
-#### 🔌 集成
-
-- **Does anyone want to create an OpenClaw to play my **
-  - 来源: [OpenClawUseCases](https://reddit.com/r/OpenClawUseCases/comments/1rmgk4r/does_anyone_want_to_create_an_openclaw_to_play_my/)
-  - 提问: Players submit one non-refundable bid per game, lowest unique bid wins the pot.   I'm curious how su
-
-- **Your OpenClaw setup has a $5 decision and a $50 de**
-  - 来源: [openclaw](https://reddit.com/r/openclaw/comments/1rmkk6o/your_openclaw_setup_has_a_5_decision_and_a_50/)
-  - The $5 decision: what hardware to run OpenCLaw on.
-
-- **iOS voice relay for OpenClaw bots – setup and how **
-  - 来源: [OpenClawBot](https://reddit.com/r/OpenclawBot/comments/1reti3i/ios_voice_relay_for_openclaw_bots_setup_and_how/)
-  - Built a small iOS app to get voice interaction working with my OpenClaw Telegram bots. Posting the setup here since it m
-
-#### 🛠️ 工具与 Skill
+- **I went through 218 OpenClaw tools so you don’t hav**
+  - 来源: [openclaw](https://reddit.com/r/openclaw/comments/1rmgt2m/i_went_through_218_openclaw_tools_so_you_dont/)
+  - 工具: cli
+  - 内容: I’ve been exploring the OpenClaw ecosystem lately and ended up collecting 218 Op
 
 - **⬇️  What's the one skill your OpenClaw can't live **
   - 来源: [openclaw](https://reddit.com/r/openclaw/comments/1rmxejo/whats_the_one_skill_your_openclaw_cant_live/)
-  - 提问: Let's see what skills you're all actually using daily.
+  - 内容: Let's see what skills you're all actually using daily.
 
-#### 💡 其他
+- **What methods or skills are there to achieve mutual**
+  - 来源: [openclaw](https://reddit.com/r/openclaw/comments/1rmxgyy/what_methods_or_skills_are_there_to_achieve/)
+  - 内容: For example, when I develop software, there are pm, front-end engineers, back-en
 
-- **Is GPT-5.4 the Best Model for OpenClaw Right Now?**
-  - 来源: [OpenClawUseCases](https://reddit.com/r/OpenClawUseCases/comments/1rmidyi/is_gpt54_the_best_model_for_openclaw_right_now/)
-  - 提问: Is GPT-5.4 the Best Model for OpenClaw Right Now?
 
-- **What models are you using with OpenClaw for coding**
-  - 来源: [OpenClawUseCases](https://reddit.com/r/OpenClawUseCases/comments/1rm9puv/what_models_are_you_using_with_openclaw_for/)
-  - 提问: I’ve been running two OpenClaw setups recently. one locally on an old mini PC and another hosted ins
+#### 📖 教程指南
 
-- **No one uses local models for OpenClaw. Stop preten**
-  - 来源: [openclaw](https://reddit.com/r/openclaw/comments/1rmjba5/no_one_uses_local_models_for_openclaw_stop/)
-  - Sad to say, I even have an Nvidia, but if you arent using SOTA, you are going to have a terrible time.
+- **$70 house-call OpenClaw installs are taking off in**
+  - 来源: [openclaw](https://reddit.com/r/openclaw/comments/1rmn2zh/70_housecall_openclaw_installs_are_taking_off_in/)
+  - 内容: On China's e-commerce platforms like taobao, remote installs were being quoted a
+
+
+#### 💬 讨论
+
+- **GPT-5.4 Pro or Claude Opus 4.6 for OpenClaw?**
+  - 来源: [openclaw](https://reddit.com/r/openclaw/comments/1rmsw09/gpt54_pro_or_claude_opus_46_for_openclaw/)
+  - 成本: , 
+  - 内容: I was just about ready to pull the trigger on my first $200/mo plan with Claude 
+
+- **anyone tried gpt 5.4 yet for openclaw? how is it?**
+  - 来源: [openclaw](https://reddit.com/r/openclaw/comments/1rmw6qu/anyone_tried_gpt_54_yet_for_openclaw_how_is_it/)
+  - 做法: and how does it compare to gpt-codex 5.4 and opus 4.6?
+
 
 
 
