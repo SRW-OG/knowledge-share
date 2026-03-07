@@ -7,7 +7,7 @@ tags: [Moltbook, Agent, 能力总结]
 
 # OpenClaw Agent 能力与技术思路
 
-> 从 V2EX 总结 OpenClaw 实战经验和问题解决方案
+> 从 Reddit + V2EX 总结实战经验和问题解决方案
 > 更新日期：2026-03-07
 
 ---
@@ -26,82 +26,79 @@ tags: [Moltbook, Agent, 能力总结]
 ---
 
 ## 二、每日技术思路总结
-### 📅 2026-03-07
-
-> 信息源: V2EX + Reddit
-
-#### 💡 New: Showcase Weekends, Updated Rules, and What's 
-  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1riz6pd/new_showcase_weekends_updated_rules_and_whats_next/)
-  - 关键: config
-  - 摘要: Hey [r/openclaw](https://www.reddit.com/r/openclaw/),...
-
-#### 💡 I went through 218 OpenClaw tools so you don’t hav
-  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rmgt2m/i_went_through_218_openclaw_tools_so_you_dont/)
-  - 关键: use
-  - 摘要: I’ve been exploring the OpenClaw ecosystem lately and ended up collecting **218 OpenClaw-related too...
-
-#### 💡 I give my AI Agent a "subconscious" and taught it 
-  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rmgjm0/i_give_my_ai_agent_a_subconscious_and_taught_it/)
-  - 关键: use
-  - 摘要: I've been building a personal AI assistant called Max for a few months now. The memory system i buil...
-
-#### 💡 GPT-5.4 Pro or Claude Opus 4.6 for OpenClaw?
-  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rmsw09/gpt54_pro_or_claude_opus_46_for_openclaw/)
-  - 数据: , 
-  - 关键: use
-  - 摘要: I was just about ready to pull the trigger on my first $200/mo plan with Claude to use Opus....
-
-#### 💡 ⬇️  What's the one skill your OpenClaw can't live 
-  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rmxejo/whats_the_one_skill_your_openclaw_cant_live/)
-  - 摘要: Let's see what skills you're all actually using daily....
-
-#### 💡 Your OpenClaw setup has a $5 decision and a $50 de
-  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rmkk6o/your_openclaw_setup_has_a_5_decision_and_a_50/)
-  - 数据: , , 
-  - 关键: use
-  - 摘要: The $5 decision: what hardware to run OpenCLaw on....
-
-#### 💡 $70 house-call OpenClaw installs are taking off in
-  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rmn2zh/70_housecall_openclaw_installs_are_taking_off_in/)
-  - 关键: use
-  - 摘要: On China's e-commerce platforms like taobao, remote installs were being quoted anywhere from a few d...
-
-#### 💡 Ask OpenClaw to teach you one thing about itself d
-  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rmkal0/ask_openclaw_to_teach_you_one_thing_about_itself/)
-  - 关键: use
-  - 摘要: I used to ask Claude Code to teach me one thing about itself every few days. Learned about proper co...
-
-
 
 ### 📅 2026-03-07
 
-> 信息源: V2EX 程序员板块
-
-#### 💡 简单体验了一下 OpenClaw，说说自己的看法
-
-- 来源: [V2EX](https://www.v2ex.com/t/1196394)
-
-- 问题：OpenClaw 安全性低、本质是外包、部署不简单、烧 token
-
-- 方案：
-  - 安全性：安装在云电脑或 Mac mini 独立沙盒
-  - 飞书对接：授予权限后可直接查看修改飞书文档/多维表格
-  - 适用场景：非重要数据的自动化处理
-
-#### 💡 为什么我的 OpenClaw 跟个弱智似的
-
-- 来源: [V2EX](https://www.v2ex.com/t/1196240)
-
-- 问题：不能执行指令、安装 skills，无法读写文件
-
-- 方案：
-  - 权限问题：2026.3.2 版本收紧了权限，默认 tools.profile 改为 messaging
-  - 解决：修改 .openclaw.json，将 tools.profile 切到 full
-  - 具体配置：开启 cache、tools、cron 等权限
-  - 模型配置：context max 默认 16k，调大到 250k 后复杂任务不卡
-  - 模型差异：Claude Opus 和其他模型有代际差距，推荐用 Opus
-  - 资源：2c2g 云主机可能不够用
+> 信息源: Reddit (r/openclaw, r/OpenClawUseCases) + V2EX
 
 ---
 
-*本文档由 Agent 自动从 V2EX 提取总结*
+#### 💡 硬件 vs 模型选择决策树 (必读!)
+
+**来源**: [Reddit](https://reddit.com/r/openclaw/comments/1rmkk6o/)
+
+**核心观点**:
+- $5 决策：选什么硬件运行 OpenClaw
+- $50 决策：选什么模型
+- **硬件只影响 $3-8/月，模型影响 $3-200/月**
+- 多数人把 90% 时间花在错误决策上
+
+**正确步骤**:
+
+1. **先选模型**：
+   - Gemini Flash：接近零成本，能容忍偶尔质量下降
+   - Sonnet：可靠性好，价格适中
+   - ChatGPT OAuth：如果你已经付费 ChatGPT
+   - Opus：只有真正需要且每天看 dashboard 的人
+
+2. **再选硬件**：
+   - API 模型：$5 VPS + 1-2GB RAM 足够，Pi 3 都能跑
+   - 硬件只是保持 Node 进程运行
+   - 本地模型：需要 GPU，70B 以下模型 tool calling 不可靠
+
+**陷阱**：
+- Mac Mini 卖点是省 API 成本，但实际多数人还是用 API 模型
+- 最终 $700 硬件做了 $5 VPS 的事
+
+**推荐方案**：
+- $5 VPS + Gemini Flash/ChatGPT OAuth + 1 个 agent + 3 个 skill = $10/月以内
+
+---
+
+#### 💡 OpenClaw Mega Cheatsheet 150+ CLI 命令
+
+**来源**: [Reddit](https://reddit.com/r/OpenClawUseCases/comments/1r6aeo3/)
+
+**速查表内容**：
+- Core CLI: `openclaw onboard`, `gateway`, `status --all --deep`, `logs --follow`, `reset --scope`, `config`, `models`, `agents`, `cron`, `hooks`
+- Workspace 文件：AGENTS.md, SOUL.md, MEMORY.md, BOOT.md, HEARTBEAT.md
+- Memory, slash commands, hooks 工作流
+- Skills, multi-agent 模式
+- Debug/Ops: `openclaw doctor`, `health`, `security audit`
+
+**链接**: https://moltfounders.com/openclaw-mega-cheatsheet
+
+---
+
+#### 💡 OpenClaw 权限配置问题 (V2EX)
+
+**来源**: [V2EX](https://www.v2ex.com/t/1196240)
+
+**问题**：不能执行指令、安装 skills、读写文件
+
+**解决方案**：
+1. 2026.3.2 版本收紧了权限，默认 tools.profile 改为 messaging
+2. 修改 .openclaw.json，将 tools.profile 切到 full
+3. 具体配置：开启 cache、tools、cron 等权限
+4. context max 默认 16k，调大到 250k 后复杂任务不卡
+
+---
+
+#### 💡 模型差异
+
+- Claude Opus 和其他模型有代际差距，推荐用 Opus
+- 2c2g 云主机可能不够用
+
+---
+
+*本文档由 Agent 自动从 Reddit + V2EX 提取总结*
