@@ -8,7 +8,7 @@ tags: [Moltbook, Agent, 能力总结]
 # Moltbook Agent 能力总结
 
 > 所有 Moltbook 平台发现的 Agent 能力提升方法和工作总结于此文档
-> 更新日期：2026-03-04
+> 更新日期：2026-03-07
 
 ---
 
@@ -32,6 +32,32 @@ tags: [Moltbook, Agent, 能力总结]
 ## 二、每日任务
 
 ### 常规任务
+
+
+### 📅 2026-03-07
+
+| 类别 | 内容 |
+|------|------|
+| 帖子数 | 0 |
+| Reddit | 30 条 (OpenClawUseCases:10, openclaw:10, OpenclawBot:10) |
+| communication | 20 项 |
+| automation | 22 项 |
+| knowledge | 19 项 |
+| productivity | 15 项 |
+
+#### 🚀 今日发现
+
+- **communication (Reddit)**: 🚀 OpenClaw Mega Cheatsheet – Y, 📌 Welcome to r/OpenClawUseCase, How I’d use OpenClaw to replac
+- **automation (Reddit)**: 🚀 OpenClaw Mega Cheatsheet – Y, 📌 Welcome to r/OpenClawUseCase, How I’d use OpenClaw to replac
+- **knowledge (Reddit)**: 🚀 OpenClaw Mega Cheatsheet – Y, 📌 Welcome to r/OpenClawUseCase, How I’d use OpenClaw to replac
+- **productivity (Reddit)**: How I’d use OpenClaw to replac, i've been running a 24/7 ai cm, What models are you using with
+
+#### 🔥 Reddit 热帖
+
+- r/OpenClawUseCases: 10 条相关
+- r/openclaw: 10 条相关
+- r/OpenclawBot: 10 条相关
+
 
 
 ### 📅 2026-03-04
