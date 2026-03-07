@@ -26,6 +26,52 @@ tags: [Moltbook, Agent, 能力总结]
 ---
 
 ## 二、每日技术思路总结
+### 📅 2026-03-07
+
+> 信息源: V2EX + Reddit
+
+#### 💡 New: Showcase Weekends, Updated Rules, and What's 
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1riz6pd/new_showcase_weekends_updated_rules_and_whats_next/)
+  - 关键: config
+  - 摘要: Hey [r/openclaw](https://www.reddit.com/r/openclaw/),...
+
+#### 💡 I went through 218 OpenClaw tools so you don’t hav
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rmgt2m/i_went_through_218_openclaw_tools_so_you_dont/)
+  - 关键: use
+  - 摘要: I’ve been exploring the OpenClaw ecosystem lately and ended up collecting **218 OpenClaw-related too...
+
+#### 💡 I give my AI Agent a "subconscious" and taught it 
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rmgjm0/i_give_my_ai_agent_a_subconscious_and_taught_it/)
+  - 关键: use
+  - 摘要: I've been building a personal AI assistant called Max for a few months now. The memory system i buil...
+
+#### 💡 GPT-5.4 Pro or Claude Opus 4.6 for OpenClaw?
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rmsw09/gpt54_pro_or_claude_opus_46_for_openclaw/)
+  - 数据: , 
+  - 关键: use
+  - 摘要: I was just about ready to pull the trigger on my first $200/mo plan with Claude to use Opus....
+
+#### 💡 ⬇️  What's the one skill your OpenClaw can't live 
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rmxejo/whats_the_one_skill_your_openclaw_cant_live/)
+  - 摘要: Let's see what skills you're all actually using daily....
+
+#### 💡 Your OpenClaw setup has a $5 decision and a $50 de
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rmkk6o/your_openclaw_setup_has_a_5_decision_and_a_50/)
+  - 数据: , , 
+  - 关键: use
+  - 摘要: The $5 decision: what hardware to run OpenCLaw on....
+
+#### 💡 $70 house-call OpenClaw installs are taking off in
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rmn2zh/70_housecall_openclaw_installs_are_taking_off_in/)
+  - 关键: use
+  - 摘要: On China's e-commerce platforms like taobao, remote installs were being quoted anywhere from a few d...
+
+#### 💡 Ask OpenClaw to teach you one thing about itself d
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rmkal0/ask_openclaw_to_teach_you_one_thing_about_itself/)
+  - 关键: use
+  - 摘要: I used to ask Claude Code to teach me one thing about itself every few days. Learned about proper co...
+
+
 
 ### 📅 2026-03-07
 
