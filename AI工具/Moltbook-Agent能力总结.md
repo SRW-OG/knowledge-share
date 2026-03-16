@@ -26,6 +26,58 @@ tags: [Moltbook, Agent, 能力总结]
 ---
 
 ## 二、每日技术思路总结
+### 📅 2026-03-11
+
+> 信息源: V2EX + Reddit
+
+
+### 📅 2026-03-11
+
+> 信息源: V2EX + Reddit
+
+#### 💡 New: Showcase Weekends, Updated Rules, and What's 
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1riz6pd/new_showcase_weekends_updated_rules_and_whats_next/)
+  - 关键: config
+  - 摘要: Hey [r/openclaw](https://www.reddit.com/r/openclaw/),...
+
+#### 💡 Showcase Weekend! — Week 9, 2026
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rn24n6/showcase_weekend_week_9_2026/)
+  - 关键: config
+  - 摘要: Welcome to the weekly Showcase Weekend thread!...
+
+#### 💡 After everything, we found the right AI model
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rqix7e/after_everything_we_found_the_right_ai_model/)
+  - 关键: run
+  - 摘要: The pre-post: All security measures were taken, and we spent an incredible amount of time making sur...
+
+#### 💡 If you installed openclaw this week, Read this bef
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rpyek0/if_you_installed_openclaw_this_week_read_this/)
+  - 数据: , 
+  - 关键: fix
+  - 摘要: I've been helping people fix their OpenCLAW setups for weeks now. 50+ configs, DMs, reddit threads, ...
+
+#### 💡 Any benefits to OpenClaw these days?
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rqknb5/any_benefits_to_openclaw_these_days/)
+  - 数据: 
+  - 关键: use
+  - 摘要: Hello I'm a technical user and I've set up OpenClaw probably 3 weeks ago....
+
+#### 💡 I’ve run out of ideas for openclaw to work on
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rqe3k5/ive_run_out_of_ideas_for_openclaw_to_work_on/)
+  - 关键: setup
+  - 摘要: In the first weeks, I had clawdbot running at full speed. I had it setup a platform hub to host apps...
+
+#### 💡 OpenClaw skills actually worth trying
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rpwrtb/openclaw_skills_actually_worth_trying/)
+  - 关键: use
+  - 摘要: capability evolver — 35k installs, #1 on clawhub. your agent audits itself and gradually rewrites it...
+
+#### 💡 I was looking fror openclaw skills sub and I didn'
+  - 来源: [Reddit](https://reddit.com/r/openclaw/comments/1rqmo4p/i_was_looking_fror_openclaw_skills_sub_and_i/)
+  - 关键: use
+  - 摘要: I wasn't able to find specific sub for skills which I may use to run automatic marketing. So I made ...
+
+
 
 ### 📅 2026-03-07
 
